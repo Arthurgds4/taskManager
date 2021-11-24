@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>TaskManager</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark d-flex bg-dark">
+            <div class="container">
+                <a class="navbar-brand row d-flex justify-content-center" href="#">TaskManager</a>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex justify-content-center" style="padding: 1.25rem;">
+        <div class="card" style="width: 18rem; border-radius:2rem; border-width: 1rem; border-color:#343A40" ;>
+            <img src="./assets/images/logoTaskManager.png" class="card-img-top" alt="..." style="padding: 1rem;">
+            <h5 class="card-title d-flex justify-content-center" style="padding: 0.5rem; color:#343A40">
+                To-do list</h5>
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                    <input type="text" id="inputTask" name="fname"><br>
+                    <button type="button" class="btn btn-sm" id="add"><i class="bi bi-plus-lg"
+                            style="color:#343A40"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                            </svg></i></button>
+                </div>
+                <div style="margin-top:1rem">
+                    <ul class="list-group list-group-numbered" id="task">
+                    </ul>
+                </div>
+                <h5 class="d-flex justify-content-center" id="timeSpent"></h5>
+                <h6 class="card-title d-flex justify-content-center" style="padding: 0.5rem; color:#343A40">
+                    @arthurgomesdev</h6>
+            </div>
+        </div>
+    </main>
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Arthur Gomes</small>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
