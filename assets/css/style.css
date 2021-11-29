@@ -1,0 +1,16 @@
+.list{
+    margin-left: 1rem;
+    padding: .5rem;
+}
+
+.delete{
+    margin-left: .5rem;
+    font-size: .8rem;
+    background-color: #343A40;
+    color: white;
+    border-radius: .5rem;
+    
+}
+.delete:hover{
+    background:linear-gradient(to bottom, #8c928c 5%, #000000 100%);
+}
